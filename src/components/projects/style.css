@@ -1,0 +1,178 @@
+#projectsContainer {
+  min-height: 100vh;
+  width: 100vw;
+  background-color: var(--normalGreen);
+}
+
+.internalProjectsContainer {
+  height: 100%;
+  width: 85vw;
+  display: grid;
+  grid-template-columns: 1fr 2rem 0.33fr 0.33fr 0.33fr 0.33fr;
+  grid-template-rows: auto 1fr 2rem 0.5fr 1fr 0.5fr 0.33fr 0.33fr 2rem 0.5fr 0.33fr 0.5fr 2rem 0.33fr 0.33fr 2rem;
+  margin-inline: auto;
+  padding-block: 6rem;
+}
+
+.internalProjectsContainer h2 {
+  font-size: 36px;
+  font-weight: 600;
+  color: var(--darkWriting);
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 1;
+  margin-right: auto;
+  margin-bottom: 1.5rem;
+  margin-top: 0;
+}
+
+.firstProject {
+  grid-column: 1 / span 1;
+  grid-row: 2 / span 3;
+  background-color: var(--lightColor); /* padding: 64px 16px 16px 16px; */
+  border-radius: 20px;
+  border: 2px solid;
+  border-color: var(--darkWriting);
+  overflow: hidden;
+}
+
+.secondProject {
+  grid-column: 4 / span 3;
+  grid-row: 1 / span 2;
+  background-color: var(--lightColor);
+  border-radius: 20px;
+  border: 2px solid;
+  border-color: var(--darkWriting);
+  overflow: hidden;
+  /* margin-block: 10px; */
+}
+
+.thirdProject {
+  grid-column: 3 / span 4;
+  grid-row: 4 / span 2;
+  background-color: var(--lightColor);
+  border-radius: 20px;
+  border: 2px solid;
+  border-color: var(--darkWriting);
+  overflow: hidden;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  margin-left: 35px;
+  margin-right: 70px;
+}
+
+.fourthProject {
+  grid-column: 1 / span 2;
+  grid-row: 5 / span 3;
+  background-color: var(--lightColor);
+  border-radius: 20px;
+  border: 2px solid;
+  border-color: var(--darkWriting);
+  overflow: hidden;
+  margin-top: 30px;
+  margin-right: 45px;
+  margin-left: 15px;
+  margin-bottom: 30px;
+}
+
+.fifthProject {
+  grid-column: 3 / span 4;
+  grid-row: 6 / span 4;
+  background-color: var(--lightColor);
+  border-radius: 20px;
+  border: 2px solid;
+  border-color: var(--darkWriting);
+  overflow: hidden;
+  margin-left: 65px;
+}
+
+.sixthProject {
+  grid-column: 1 / span 2;
+  grid-row: 8 / span 4;
+  background-color: var(--lightColor);
+  border-radius: 20px;
+  border: 2px solid;
+  border-color: var(--darkWriting);
+  overflow: hidden;
+}
+
+.seventhProject {
+  grid-column: 4 / span 3;
+  grid-row: 10 / span 4;
+  background-color: var(--lightColor);
+  border-radius: 20px;
+  border: 2px solid;
+  border-color: var(--darkWriting);
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.eigthProject {
+  grid-column: 1 / span 3;
+  grid-row: 12 / span 5;
+  background-color: var(--lightColor);
+  border-radius: 20px;
+  border: 2px solid;
+  border-color: var(--darkWriting);
+  overflow: hidden;
+  margin-top: 20px;
+  margin-right: 30px;
+  margin-left: 50px;
+}
+
+.topProjectScreen {
+  /* height: 10%; */
+  height: 35px;
+  background-color: white;
+  border-bottom: 2px solid;
+  border-color: var(--darkWriting);
+  display: flex;
+  align-items: center;
+}
+
+.dotProjectScreen {
+  background-color: var(--darkWriting);
+  height: 17px;
+  width: 17px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.projectContent {
+  height: 90%;
+  /* background-color: red; */
+  padding-top: 16px;
+  padding-inline: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  text-align: left;
+  color: var(--darkWriting);
+}
+
+.projectTitle {
+  font-size: 26px !important;
+  margin-top: 0;
+  font-weight: 600;
+}
+
+.projectTechnologiesUsed {
+  margin-bottom: 10px;
+}
+
+.openProjectSection {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width: 100%;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 17px;
+  color: var(--darkWriting);
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+.openProjectSection:hover {
+  transform: scale(1.03);
+}

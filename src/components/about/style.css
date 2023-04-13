@@ -1,0 +1,57 @@
+#aboutSection {
+  background-color: var(--lightColor);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  color: var(--darkWriting);
+}
+
+#aboutSectionLeft {
+  height: 100%;
+  width: 35%;
+}
+
+#aboutSectionRight {
+  background-color: var(--logoColor);
+  height: 100%;
+  /* width: 57.5%; */
+  width: 65%;
+}
+
+#introContainer {
+  width: 42.5vw;
+  height: 100%;
+  /* background-color: rebeccapurple; */
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-left: auto;
+  margin-right: 7.5vw;
+}
+
+.introduction {
+  width: 100%;
+  height: 60%;
+  /* background-color: pink; */
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.introduction h2 {
+  margin-block: 0;
+}
+
+.introduction span {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: var(--color-dark);
+  /* font-family: "Princess Sofia", cursive; */
+}
+
+.aboutContent {
+  font-size: 56px;
+  text-align: left;
+  font-weight: bold;
+  margin-top: 30px;
+}

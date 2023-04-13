@@ -1,38 +1,33 @@
 .App {
   text-align: center;
+  position: relative;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@import url("https://fonts.googleapis.com/css2?family=Princess+Sofia&family=Source+Code+Pro:wght@300;400;600&display=swap");
+
+body {
+  font-family: "Source Code Pro", monospace;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+:root {
+  --lightColor: rgb(255, 255, 252);
+  --lightBlue: rgb(155, 246, 255);
+  --lightGrey: rgb(193, 191, 191);
+  --darkGrey: #adb5bd;
+  --lightYellow: rgb(253, 255, 182);
+  --logoColor: rgb(160, 196, 255);
+  --lightBrown: rgb(243, 213, 181);
+  --darkBrown: rgb(231, 188, 145);
+  --lightGreen: rgb(217, 237, 146);
+  --customGreen: rgb(181, 228, 140);
+  --darkerGreen: rgb(153, 217, 140);
+  --normalGreen: rgb(202, 255, 191);
+  --customDarkerGreen: rgb(118, 200, 147);
+  --lightRed: rgb(255, 173, 173);
+  --darkerRed: rgb(180, 88, 88);
+  --lightPurple: rgb(189, 178, 255);
+  --lightPink: rgb(255, 198, 255);
+  --darkWriting: #404040;
+  --screenColor: #f8f9fa;
+  --lightOrange: rgb(255, 214, 165);
 }

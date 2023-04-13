@@ -1,0 +1,387 @@
+#lampContainer {
+  /* background-color: white; */
+  width: 100px;
+  height: 300px;
+  position: absolute;
+  z-index: 1;
+  left: 320px;
+}
+
+.lampWire {
+  width: 5px;
+  height: 140px;
+  background-color: var(--lightBlue);
+  margin-inline: auto;
+}
+
+.lampWireEnd {
+  width: 10px;
+  height: 10px;
+  background-color: var(--lightGrey);
+  margin-inline: auto;
+  border-radius: 2px;
+}
+
+.firstLampPart {
+  width: 28px;
+  height: 23px;
+  background-color: var(--lightBlue);
+  border-top-right-radius: 35px;
+  border-top-left-radius: 35px;
+  margin-inline: auto;
+  margin-top: -2px;
+  position: relative;
+}
+
+.lampLineDesign {
+  width: 100%;
+  height: 4px;
+  background-color: var(--lightGrey);
+  position: absolute;
+  bottom: 3px;
+  left: 0;
+  right: 0;
+}
+
+.secondLampPart {
+  width: 80px;
+  height: 50px;
+  background-color: var(--lightBlue);
+  border-top-right-radius: 40px;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  margin-inline: auto;
+  margin-top: -5px;
+}
+
+.lampBottomBorder {
+  width: 90px;
+  height: 7px;
+  background-color: var(--lightGrey);
+  margin-inline: auto;
+  border-radius: 2px;
+  margin-top: -5px;
+  /* z-index: 2; */
+}
+
+.lampBulb {
+  height: 15px;
+  width: 32px;
+  background-color: var(--lightYellow);
+  border-bottom-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  /* margin-top: -2px; */
+  margin-inline: auto;
+}
+
+#flowerContainer {
+  /* background-color: white; */
+  height: 400px;
+  width: 450px;
+  position: absolute;
+  top: 6%;
+  left: 7.5vw;
+}
+
+.firstShelfContainer {
+  width: 100%;
+  height: 50%;
+  /* background-color: pink; */
+  position: relative;
+}
+
+.firstShelf {
+  height: 5px;
+  width: 40%;
+  background-color: var(--darkWriting);
+  position: absolute;
+  bottom: 30px;
+  /* z-index: 1; */
+}
+.flowerPot {
+  clip-path: polygon(0 0, 100% 0, 80% 100%, 20% 100%);
+  height: 35px;
+  width: 40px;
+  background-color: var(--lightBrown);
+  position: absolute;
+  bottom: 4.5px;
+  margin-left: 20px;
+}
+
+.flowerPotNeck {
+  clip-path: polygon(0 0, 100% 0, 98% 100%, 2% 100%);
+  height: 10px;
+  width: 50px;
+  background-color: var(--darkBrown);
+  position: absolute;
+  top: -40px;
+  left: -5px;
+  border-radius: 4px;
+  margin-left: 20px;
+}
+
+.leaf {
+  height: 50px;
+  width: 60px;
+  clip-path: polygon(0 0, 17% 29%, 24% 64%, 12% 64%, 6% 43%);
+  background-color: var(--lightGreen);
+  position: absolute;
+  top: -72px;
+  margin-left: 20px;
+}
+
+.leafTwo {
+  height: 50px;
+  width: 60px;
+  clip-path: polygon(0 0, 17% 29%, 24% 74%, 12% 74%, 6% 43%);
+  background-color: var(--customGreen);
+  position: absolute;
+  top: -77px;
+  margin-left: 25px;
+}
+
+.leafThree {
+  clip-path: polygon(27% 0, 29% 29%, 24% 64%, 12% 64%, 15% 33%);
+  width: 60px;
+  height: 50px;
+  background-color: var(--darkerGreen);
+  position: absolute;
+  top: -72px;
+  margin-left: 25px;
+}
+
+.leafFour {
+  clip-path: polygon(27% 0, 29% 29%, 25% 70%, 12% 70%, 15% 33%);
+  width: 60px;
+  height: 55px;
+  background-color: var(--customDarkerGreen);
+  position: absolute;
+  top: -78px;
+  margin-left: 40px;
+}
+
+.leafFive {
+  clip-path: polygon(27% 0, 30% 30%, 34% 70%, 17% 70%, 15% 33%);
+  width: 60px;
+  height: 50px;
+  background-color: var(--lightGreen);
+  position: absolute;
+  top: -75px;
+  margin-left: 30px;
+}
+
+.bookContainer {
+  height: 100px;
+  width: 70px;
+  /* background-color: navy; */
+  position: absolute;
+  left: 90px;
+  bottom: 5px;
+}
+
+.bookOne {
+  position: inherit;
+  background-color: var(--lightPurple);
+  height: 77%;
+  width: 22px;
+  bottom: 0;
+  left: 15px;
+}
+
+.bookTwo {
+  position: inherit;
+  background-color: var(--lightPink);
+  height: 87%;
+  width: 22px;
+  bottom: 0;
+  left: 35px;
+}
+
+.bookLineOneDesign {
+  width: 100%;
+  height: 3px;
+  background-color: var(--normalGreen);
+  position: inherit;
+  top: 10px;
+}
+
+.bookLineTwoDesign {
+  width: 100%;
+  height: 3px;
+  background-color: var(--normalGreen);
+  position: inherit;
+  top: 15px;
+}
+
+.secondBookLineOneDesign {
+  width: 100%;
+  height: 3px;
+  background-color: var(--logoColor);
+  position: inherit;
+  top: 8px;
+}
+
+.secondBookLineTwoDesign {
+  width: 100%;
+  height: 3px;
+  background-color: var(--logoColor);
+  position: inherit;
+  top: 13px;
+}
+
+.secondShelfContainer {
+  width: 100%;
+  height: 50%;
+  /* background-color: palevioletred; */
+  /* background-color: transparent; */
+  position: relative;
+}
+
+.secondShelf {
+  height: 10px;
+  width: 80%;
+  background-color: var(--darkWriting);
+  position: absolute;
+  bottom: 30px;
+  right: 0;
+  border-radius: 5px;
+}
+
+.cupContainer {
+  position: inherit;
+  bottom: 10px;
+  /* background-color: red; */
+  margin-left: 20px;
+  height: 50px;
+  width: 50px;
+}
+
+.cupIcon {
+  font-size: 35px;
+  position: inherit;
+  bottom: 0;
+  left: 10px;
+  color: var(--lightPurple);
+}
+
+.bookContainerShelfTwo {
+  position: inherit;
+  bottom: 5px;
+  left: 10px;
+  height: 100px;
+  width: 150px;
+}
+
+#screenContainer {
+  position: inherit;
+  bottom: 5px;
+  left: 70px;
+  height: 150px;
+  width: 200px;
+}
+
+.screenBase {
+  position: inherit;
+  bottom: 0;
+  translate: 70%;
+  width: 80px;
+  height: 5px;
+  background-color: var(--lightGrey);
+  border-top-right-radius: 2px;
+  border-top-left-radius: 2px;
+}
+
+.screenBaseTwo {
+  position: inherit;
+  bottom: 4.5px;
+  translate: 165%;
+  width: 45px;
+  height: 36px;
+  background-color: var(--darkGrey);
+  clip-path: polygon(10% 61%, 90% 61%, 100% 100%, 0% 100%);
+}
+
+.actualScreen {
+  position: inherit;
+  bottom: 19px;
+  height: 150px;
+  width: 200px;
+  background-color: var(--screenColor);
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: var(--darkWriting);
+}
+
+.screen {
+  height: 85%;
+  width: 100%;
+  /* background-color: palegoldenrod; */
+}
+
+.button {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: var(--darkWriting);
+  margin-inline: auto;
+  margin-top: 6px;
+}
+
+.screenBorder {
+  width: 100%;
+  height: 100%;
+  background-color: var(--darkWriting);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.internalScreen {
+  width: 100%;
+  height: 85%;
+  margin-inline: 10px;
+  background-color: var(--screenColor);
+}
+
+.screenIconDocumentContainer {
+  width: 30px;
+  font-size: 90px;
+  position: inherit;
+  left: 0;
+}
+
+.documentIcon {
+  margin-top: 10px;
+  margin-left: 5px;
+  color: var(--lightPurple);
+}
+
+.screenCardDocumentContainer {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  width: 50%;
+  height: 90%;
+  margin-left: auto;
+}
+
+.cardDocumentIcon {
+  margin-top: 10px;
+  position: inherit;
+  font-size: 50px;
+  left: 0;
+  top: -5px;
+  margin-left: 10px;
+  color: var(--lightPurple);
+}
+
+.cardDocumentIconTwo {
+  font-size: 60px;
+  color: var(--lightPink);
+  position: inherit;
+  left: 0;
+  bottom: 30px;
+  margin-left: 10px;
+}
