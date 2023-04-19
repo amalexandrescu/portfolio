@@ -1,5 +1,4 @@
 #lampContainer {
-  /* background-color: white; */
   width: 100px;
   height: 300px;
   position: absolute;
@@ -71,12 +70,10 @@
   background-color: var(--lightYellow);
   border-bottom-right-radius: 40px;
   border-bottom-left-radius: 40px;
-  /* margin-top: -2px; */
   margin-inline: auto;
 }
 
 #flowerContainer {
-  /* background-color: white; */
   height: 400px;
   width: 450px;
   position: absolute;
@@ -87,7 +84,6 @@
 .firstShelfContainer {
   width: 100%;
   height: 50%;
-  /* background-color: pink; */
   position: relative;
 }
 
@@ -97,7 +93,6 @@
   background-color: var(--darkWriting);
   position: absolute;
   bottom: 30px;
-  /* z-index: 1; */
 }
 .flowerPot {
   clip-path: polygon(0 0, 100% 0, 80% 100%, 20% 100%);
@@ -174,7 +169,6 @@
 .bookContainer {
   height: 100px;
   width: 70px;
-  /* background-color: navy; */
   position: absolute;
   left: 90px;
   bottom: 5px;
@@ -233,8 +227,6 @@
 .secondShelfContainer {
   width: 100%;
   height: 50%;
-  /* background-color: palevioletred; */
-  /* background-color: transparent; */
   position: relative;
 }
 
@@ -251,7 +243,6 @@
 .cupContainer {
   position: inherit;
   bottom: 10px;
-  /* background-color: red; */
   margin-left: 20px;
   height: 50px;
   width: 50px;
@@ -317,7 +308,6 @@
 .screen {
   height: 85%;
   width: 100%;
-  /* background-color: palegoldenrod; */
 }
 
 .button {
@@ -384,4 +374,20 @@
   left: 0;
   bottom: 30px;
   margin-left: 10px;
+}
+
+@media screen and (min-width: 731px) and (max-width: 992px) {
+  .firstShelf {
+    bottom: 40px;
+  }
+
+  .secondShelf {
+    height: 10px;
+    width: 75%;
+    background-color: var(--darkWriting);
+    position: absolute;
+    bottom: 20px;
+    right: 50px;
+    border-radius: 5px;
+  }
 }

@@ -6,7 +6,6 @@
   height: 10vh;
   width: 85vw;
   margin-inline: auto;
-  /* background-color: red; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -17,7 +16,6 @@
 }
 
 #myLogo {
-  /* background-color: yellow; */
   height: 100%;
   display: flex;
   align-items: center;
@@ -28,7 +26,6 @@
 }
 
 #navbarMenu {
-  /* background-color: green; */
   height: 100%;
   width: 50%;
   display: flex;
@@ -51,4 +48,171 @@ a {
 a:hover {
   color: var(--normalGreen);
   transition: color 0.5s ease-in-out;
+}
+
+@media screen and (max-width: 575px) {
+  #navbar {
+    flex-direction: column;
+    width: 100vw;
+  }
+
+  #navbarMenu {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    order: 1;
+  }
+
+  #myLogo {
+    order: 2;
+    width: 100vw;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    color: var(--lightColor);
+  }
+
+  #navbarMenu span {
+    font-size: 15px;
+    margin-left: 0;
+    margin-right: 25px;
+    z-index: 2;
+  }
+
+  #lampContainer {
+    left: 285px;
+    z-index: 0;
+  }
+
+  .introduction {
+    width: 100vw !important;
+    z-index: 1;
+  }
+
+  .introduction h1 {
+    font-size: 30px;
+  }
+
+  .introduction h2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .aboutContent {
+    font-size: 30px;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  #flowerContainer {
+    top: 385px;
+  }
+
+  .secondShelf {
+    width: 75%;
+    right: 95px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 730px) {
+  #aboutSection {
+  }
+
+  #navbar {
+    flex-direction: column;
+    width: 100vw;
+  }
+
+  #navbarMenu {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    order: 1;
+    margin-top: 5px;
+  }
+
+  #myLogo {
+    order: 2;
+    width: 100vw;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    color: var(--lightColor);
+  }
+
+  #navbarMenu span {
+    font-size: 18px;
+    margin-left: 0;
+    margin-right: 25px;
+    z-index: 2;
+  }
+
+  #lampContainer {
+    left: 165px;
+    z-index: 0;
+  }
+
+  .introduction {
+    width: 100vw !important;
+    z-index: 1;
+  }
+
+  .introduction h1 {
+    font-size: 34px;
+  }
+
+  .introduction h2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .aboutContent {
+    font-size: 34px;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  #flowerContainer {
+    top: 320px;
+  }
+
+  .secondShelf {
+    width: 75%;
+    right: 95px;
+  }
+}
+
+@media screen and (min-width: 731px) and (max-width: 992px) {
+  #myLogo {
+    font-size: 44px;
+  }
+
+  #navbarMenu {
+    width: 55%;
+  }
+}
+
+@media screen and (min-width: 731px) and (max-width: 992px) {
+  #flowerContainer {
+    top: 8%;
+    left: 1.5vw;
+  }
+
+  #lampContainer {
+    left: 190px;
+  }
+
+  #navbarMenu {
+    width: 60%;
+  }
+
+  #myLogo {
+    font-size: 46px;
+  }
+
+  #navbarMenu span {
+    font-size: 16px;
+  }
 }

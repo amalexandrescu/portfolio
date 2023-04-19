@@ -31,3 +31,54 @@ body {
   --screenColor: #f8f9fa;
   --lightOrange: rgb(255, 214, 165);
 }
+
+/* 0px --- 575px */
+@media screen and (max-width: 575px) {
+  #aboutSection {
+    /* background-color: red; */
+  }
+  .App {
+    display: flex;
+    flex-direction: column;
+    width: 100vw !important;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 730px) {
+  #aboutSection {
+    /* background-color: yellow; */
+  }
+}
+
+@media screen and (min-width: 731px) and (max-width: 992px) {
+  #aboutSection {
+    /* background-color: blue; */
+  }
+
+  .skillsContentText {
+    margin-top: 10px;
+  }
+
+  .introduction h1 {
+    text-align: left;
+    font-size: 30px;
+  }
+
+  .aboutContent {
+    font-size: 52px;
+  }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1180px) {
+  #aboutSection {
+    /* background-color: green; */
+    /* responsive */
+  }
+}
+
+@media screen and (min-width: 1181px) {
+  #aboutSection {
+    /* background-color: pink; */
+    /* responsive */
+  }
+}

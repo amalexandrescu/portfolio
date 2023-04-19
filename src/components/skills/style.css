@@ -7,7 +7,6 @@
 .internalSkillsContainer {
   height: 100%;
   width: 85vw;
-  /* background-color: palegoldenrod; */
   margin-inline: auto;
   padding-block: 6rem;
 }
@@ -48,11 +47,67 @@
   font-size: 20px;
   font-weight: bold;
   color: var(--darkWriting);
-  /* margin-block: auto; */
   margin-top: 80px;
 }
 
 .skillsContentText span {
   text-decoration: underline wavy;
   text-decoration-color: var(--darkerRed);
+}
+
+@media screen and (max-width: 575px) {
+  .internalSkillsContainer {
+    width: 90vw;
+  }
+
+  .internalSkillsContainer h2 {
+    font-size: 28px;
+    text-align: center;
+    display: block;
+  }
+
+  .internalSkillsContainer img {
+    width: 60px;
+  }
+
+  .skillsContentText {
+    margin-top: 40px;
+    font-size: 17px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 730px) {
+  .internalSkillsContainer {
+    width: 90vw;
+  }
+
+  .internalSkillsContainer h2 {
+    font-size: 28px;
+    text-align: center;
+    display: block;
+  }
+
+  .internalSkillsContainer img {
+    width: 60px;
+  }
+
+  .skillsContentText {
+    margin-top: 40px;
+    font-size: 17px;
+  }
+}
+
+@media screen and (min-width: 731px) and (max-width: 992px) {
+  .skillsContentText {
+    margin-top: 60px;
+    font-size: 18px;
+  }
+
+  .internalSkillsContainer img {
+    width: 90px;
+  }
+
+  .internalSkillsContainer h2 {
+    font-size: 34px;
+  }
 }

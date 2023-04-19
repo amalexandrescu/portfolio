@@ -14,14 +14,12 @@
 #aboutSectionRight {
   background-color: var(--logoColor);
   height: 100%;
-  /* width: 57.5%; */
   width: 65%;
 }
 
 #introContainer {
   width: 42.5vw;
   height: 100%;
-  /* background-color: rebeccapurple; */
   display: flex;
   align-items: center;
   justify-content: end;
@@ -32,7 +30,6 @@
 .introduction {
   width: 100%;
   height: 60%;
-  /* background-color: pink; */
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -46,7 +43,6 @@
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 1.5px;
   -webkit-text-stroke-color: var(--color-dark);
-  /* font-family: "Princess Sofia", cursive; */
 }
 
 .aboutContent {
@@ -54,4 +50,45 @@
   text-align: left;
   font-weight: bold;
   margin-top: 30px;
+}
+
+/* 0px --- 575px */
+@media screen and (max-width: 575px) {
+  #aboutSection {
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 730px) {
+  #aboutSection {
+  }
+}
+
+@media screen and (min-width: 731px) and (max-width: 992px) {
+  #aboutSection {
+  }
+
+  .skillsContentText {
+    margin-top: 10px;
+  }
+
+  .introduction h1 {
+    text-align: left;
+    font-size: 30px;
+  }
+
+  .aboutContent {
+    font-size: 52px;
+  }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1180px) {
+  #aboutSection {
+    /* responsive */
+  }
+}
+
+@media screen and (min-width: 1181px) {
+  #aboutSection {
+    /* responsive */
+  }
 }

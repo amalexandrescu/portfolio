@@ -43,7 +43,6 @@
   border: 2px solid;
   border-color: var(--darkWriting);
   overflow: hidden;
-  /* margin-block: 10px; */
 }
 
 .thirdProject {
@@ -120,7 +119,6 @@
 }
 
 .topProjectScreen {
-  /* height: 10%; */
   height: 35px;
   background-color: white;
   border-bottom: 2px solid;
@@ -139,7 +137,6 @@
 
 .projectContent {
   height: 90%;
-  /* background-color: red; */
   padding-top: 16px;
   padding-inline: 10px;
   display: flex;
@@ -175,4 +172,74 @@
 
 .openProjectSection:hover {
   transform: scale(1.03);
+}
+
+@media screen and (max-width: 575px) {
+  .internalProjectsContainer {
+    height: 100%;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+
+  .internalProjectsContainer h2 {
+    font-size: 28px;
+    text-align: center;
+    display: block;
+    margin-inline: auto;
+  }
+
+  .firstProject,
+  .secondProject,
+  .thirdProject,
+  .fourthProject,
+  .fifthProject,
+  .sixthProject,
+  .seventhProject,
+  .eigthProject {
+    background-color: var(--lightColor);
+    width: 100%;
+    border-radius: 20px;
+    border: 2px solid;
+    border-color: var(--darkWriting);
+    overflow: hidden;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 730px) {
+  .internalProjectsContainer {
+    height: 100%;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+
+  .internalProjectsContainer h2 {
+    font-size: 28px;
+    text-align: center;
+    display: block;
+    margin-inline: auto;
+  }
+
+  .firstProject,
+  .secondProject,
+  .thirdProject,
+  .fourthProject,
+  .fifthProject,
+  .sixthProject,
+  .seventhProject,
+  .eigthProject {
+    background-color: var(--lightColor);
+    width: 100%;
+    border-radius: 20px;
+    border: 2px solid;
+    border-color: var(--darkWriting);
+    overflow: hidden;
+    margin: 0;
+    margin-bottom: 20px;
+  }
 }
