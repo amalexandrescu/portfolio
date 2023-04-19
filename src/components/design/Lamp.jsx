@@ -3,7 +3,7 @@ import "./style.css";
 const Lamp = () => {
   return (
     <div id="lampContainer">
-      <div class="lampWire"></div>
+      <div className="lampWire"></div>
       <div className="lampWireEnd"></div>
       <div className="firstLampPart">
         <div className="lampLineDesign"></div>
