@@ -80,7 +80,7 @@ a:hover {
   }
 
   #lampContainer {
-    left: 285px;
+    left: 275px;
     z-index: 0;
   }
 
@@ -91,6 +91,7 @@ a:hover {
 
   .introduction h1 {
     font-size: 30px;
+    width: 100%;
   }
 
   .introduction h2 {
@@ -107,17 +108,22 @@ a:hover {
 
   #flowerContainer {
     top: 370px;
+    width: 345px;
   }
 
-  .secondShelf {
-    width: 75%;
-    right: 95px;
+  .firstShelf {
+    width: 50%;
+  }
+
+  .secondShelf  {
+    width: 305px;
+    right: 35px;
   }
 }
 
 @media screen and (min-width: 576px) and (max-width: 730px) {
-  #aboutSection {
-  }
+  /* #aboutSection {
+  } */
 
   #navbar {
     flex-direction: column;

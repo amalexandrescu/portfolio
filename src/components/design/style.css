@@ -376,6 +376,17 @@
   margin-left: 10px;
 }
 
+@media screen and (max-width: 575px) {
+  .firstShelf {
+    width: 50%;
+  }
+
+  .secondShelf {
+    width: 305px;
+    right: 35px;
+  }
+}
+
 @media screen and (min-width: 731px) and (max-width: 992px) {
   .firstShelf {
     bottom: 40px;
