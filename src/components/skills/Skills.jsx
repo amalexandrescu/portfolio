@@ -23,15 +23,13 @@ const Skills = () => {
             alt="react logo"
           />
           <img
-            src="https://res.cloudinary.com/dkdtopojb/image/upload/v1681291363/portofolio/Redux_z2sjis_ediowl.svg"
-            alt="redux logo"
-          />
-          <img
             src="https://res.cloudinary.com/dkdtopojb/image/upload/v1681291343/portofolio/TypeScript_xcxbb0_w61a3f.svg"
             alt="ts logo"
           />
-        </div>
-        <div className="skillsContainerTwo">
+          <img
+            src="https://res.cloudinary.com/dkdtopojb/image/upload/v1681291363/portofolio/Redux_z2sjis_ediowl.svg"
+            alt="redux logo"
+          />
           <img
             src="https://res.cloudinary.com/dkdtopojb/image/upload/v1681291359/portofolio/NodeJS-Dark_twgg7w_uzqamd.svg"
             alt="node logo"
@@ -44,18 +42,51 @@ const Skills = () => {
             src="https://res.cloudinary.com/dkdtopojb/image/upload/v1681291350/portofolio/MongoDB_jkoclz_bk6nk1.svg"
             alt="mongo logo"
           />
-        </div>
-        <div className="skillsContentText">
-          I have progressed from using <span>HTML</span>, <span>CSS</span>, and
-          vanilla <span>JS</span> to building more sophisticated applications
-          with advanced frontend technologies such as <span>React</span> and{" "}
-          <span>Redux</span>. Furthermore, I have expanded my skill set to
-          include backend technologies such as <span>Node</span>,{" "}
-          <span>Express</span>, and <span>MongoDB</span>. However, I view this
-          as only the beginning of my journey towards excellence in web
-          development. I am committed to constantly improving my knowledge and
-          staying up-to-date with the latest industry trends and technologies in
-          order to provide top-quality solutions to clients.
+          <img
+            className="logo"
+            src="https://res.cloudinary.com/dc0esmagg/image/upload/v1746787617/logo-firebase_sge7xz.png"
+            alt="firebase logo"
+          />
+          <img
+            className="logo"
+            src="https://res.cloudinary.com/dc0esmagg/image/upload/v1746788098/webflow-icon_l0p7xk.webp"
+            alt="webflow logo"
+          />
+          <img
+            className="logo"
+            src="https://res.cloudinary.com/dc0esmagg/image/upload/v1746788496/payload_icon_zn5rd7.png"
+            alt="payload cms logo"
+          />
+          <img
+            className="logo"
+            src="https://res.cloudinary.com/dc0esmagg/image/upload/v1746788810/tailwind_icon_zfgbo6.jpg"
+            alt="tailwind logo"
+          />
+          <img
+            className="logo"
+            src="https://res.cloudinary.com/dc0esmagg/image/upload/v1746788810/material_ui_logo_mtmgqe.jpg"
+            alt="material ui logo"
+          />
+          <img
+            className="logo"
+            src="https://res.cloudinary.com/dc0esmagg/image/upload/v1746788810/bootstrap_icon_vxdcxu.png"
+            alt="bootstrap logo"
+          />
+          <img
+            className="logo"
+            src="https://res.cloudinary.com/dc0esmagg/image/upload/v1746788810/chakra_ui_icon_p6mxar.jpg"
+            alt="chakra ui logo"
+          />
+          <img
+            className="logo"
+            src="https://res.cloudinary.com/dc0esmagg/image/upload/v1746789213/SCSS-or-CSS_fgevyk.webp"
+            alt="scss logo"
+          />
+          <img
+            className="logo"
+            src="https://res.cloudinary.com/dc0esmagg/image/upload/v1746789272/git_logo_kh1azy.png"
+            alt="git logo"
+          />
         </div>
       </div>
     </div>

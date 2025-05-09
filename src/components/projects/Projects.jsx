@@ -13,6 +13,30 @@ const Projects = () => {
             <div className="dotProjectScreen"></div>
           </div>
           <div className="projectContent">
+            <h3 className="projectTitle">Busy Bee</h3>
+            <div className="projectTechnologiesUsed">
+              The project is build with React, Typescript, Firebase.
+            </div>
+            <div>
+              Busy Bee is a smart agenda that helps you track your daily
+              activities and provides insightful reports to see how well you're
+              meeting your goals.
+            </div>
+            <div
+              className="openProjectSection"
+              onClick={() => {
+                window.open(
+                  "https://busy-bee-livid.vercel.app/login",
+                  "_blank"
+                );
+              }}
+            >
+              <div className="openProject">Open project</div>
+              <Icon.CaretRightFill />
+            </div>
+          </div>
+
+          {/* <div className="projectContent">
             <h3 className="projectTitle">Whats App Clone</h3>
             <div className="projectTechnologiesUsed">
               The project is build with React, Redux, MondoDB, ExpressJS &
@@ -34,9 +58,37 @@ const Projects = () => {
               <div className="openProject">Open project</div>
               <Icon.CaretRightFill />
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="secondProject">
+          <div className="topProjectScreen">
+            <div className="dotProjectScreen"></div>
+            <div className="dotProjectScreen"></div>
+            <div className="dotProjectScreen"></div>
+          </div>
+          <div className="projectContent">
+            <h3 className="projectTitle">Yarn Charm</h3>
+            <div className="projectTechnologiesUsed">
+              The project is build with React, Typescript.
+            </div>
+            <div>
+              A playground that lets users personalize knitted cardigans by
+              selecting colors, adding decorative charms, and previewing their
+              design in real time. Built to enhance user creativity and make the
+              design process interactive and fun.
+            </div>
+            <div
+              className="openProjectSection"
+              onClick={() => {
+                window.open("https://yarn-charm.vercel.app/", "_blank");
+              }}
+            >
+              <div className="openProject">Open project</div>
+              <Icon.CaretRightFill />
+            </div>
+          </div>
+        </div>
+        {/* <div className="secondProject">
           <div className="topProjectScreen">
             <div className="dotProjectScreen"></div>
             <div className="dotProjectScreen"></div>
@@ -62,7 +114,7 @@ const Projects = () => {
               <Icon.CaretRightFill />
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="thirdProject">
           <div className="topProjectScreen">
             <div className="dotProjectScreen"></div>
@@ -121,7 +173,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="fifthProject">
+        {/* <div className="fifthProject">
           <div className="topProjectScreen">
             <div className="dotProjectScreen"></div>
             <div className="dotProjectScreen"></div>
@@ -148,7 +200,7 @@ const Projects = () => {
               <Icon.CaretRightFill />
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="sixthProject">
           <div className="topProjectScreen">
             <div className="dotProjectScreen"></div>

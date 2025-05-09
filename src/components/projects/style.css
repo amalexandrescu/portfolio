@@ -11,7 +11,8 @@
   grid-template-columns: 1fr 2rem 0.33fr 0.33fr 0.33fr 0.33fr;
   grid-template-rows: auto 1fr 2rem 0.5fr 1fr 0.5fr 0.33fr 0.33fr 2rem 0.5fr 0.33fr 0.5fr 2rem 0.33fr 0.33fr 2rem;
   margin-inline: auto;
-  padding-block: 6rem;
+  padding-top: 9rem;
+  padding-bottom: 0rem;
 }
 
 .internalProjectsContainer h2 {
@@ -106,8 +107,8 @@
 }
 
 .eigthProject {
-  grid-column: 1 / span 3;
-  grid-row: 12 / span 5;
+  grid-column: 3 / span 4;
+  grid-row: 6 / span 4;
   background-color: var(--lightColor);
   border-radius: 20px;
   border: 2px solid;

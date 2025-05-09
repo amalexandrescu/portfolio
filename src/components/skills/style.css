@@ -1,5 +1,5 @@
 #skillsContainer {
-  min-height: 100vh;
+  max-height: 100vh;
   width: 100vw;
   background-color: var(--lightRed);
 }
@@ -23,6 +23,8 @@
   margin-top: 40px;
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 .skillsContainerTwo {
@@ -56,6 +58,10 @@
   text-decoration-color: var(--darkerRed); */
 }
 
+.logo {
+  border-radius: 15px;
+}
+
 @media screen and (max-width: 575px) {
   .skillsContainer {
     flex-wrap: wrap;
@@ -70,7 +76,8 @@
 
   .internalSkillsContainer {
     width: 90vw;
-    padding-block: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 3.5rem;
   }
 
   .internalSkillsContainer h2 {
