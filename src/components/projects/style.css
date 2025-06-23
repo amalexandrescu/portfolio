@@ -9,7 +9,7 @@
   width: 85vw;
   display: grid;
   grid-template-columns: 1fr 2rem 0.33fr 0.33fr 0.33fr 0.33fr;
-  grid-template-rows: auto 1fr 2rem 0.5fr 1fr 0.5fr 0.33fr 0.33fr 2rem 0.5fr 0.33fr 0.5fr 2rem 0.33fr 0.33fr 2rem;
+  grid-template-rows: auto 1fr 2rem 2rem 0.5fr 0.7fr 0.5fr 0.33fr 0.33fr 2rem 0.5fr 0.33fr 0.5fr 2rem 0.33fr 0.33fr 0.33fr;
   margin-inline: auto;
   padding-top: 9rem;
   padding-bottom: 0rem;
@@ -48,7 +48,7 @@
 
 .thirdProject {
   grid-column: 3 / span 4;
-  grid-row: 4 / span 2;
+  grid-row: 4 / span 3;
   background-color: var(--lightColor);
   border-radius: 20px;
   border: 2px solid;
@@ -82,24 +82,9 @@
   border: 2px solid;
   border-color: var(--darkWriting);
   overflow: hidden;
-  /* grid-column: 3 / span 4;
-  grid-row: 6 / span 4;
-  background-color: var(--lightColor);
-  border-radius: 20px;
-  border: 2px solid;
-  border-color: var(--darkWriting);
-  overflow: hidden;
-  margin-left: 65px; */
 }
 
 .sixthProject {
-  /* grid-column: 1 / span 2;
-  grid-row: 8 / span 4;
-  background-color: var(--lightColor);
-  border-radius: 20px;
-  border: 2px solid;
-  border-color: var(--darkWriting);
-  overflow: hidden; */
   grid-column: 4 / span 3;
   grid-row: 10 / span 4;
   background-color: var(--lightColor);
@@ -111,16 +96,8 @@
 }
 
 .seventhProject {
-  /* grid-column: 4 / span 3;
-  grid-row: 10 / span 4;
-  background-color: var(--lightColor);
-  border-radius: 20px;
-  border: 2px solid;
-  border-color: var(--darkWriting);
-  overflow: hidden;
-  margin-top: 20px; */
   grid-column: 3 / span 4;
-  grid-row: 6 / span 4;
+  grid-row: 7 / span 3;
   background-color: var(--lightColor);
   border-radius: 20px;
   border: 2px solid;
@@ -131,20 +108,9 @@
   margin-left: 50px;
 }
 
-.eigthProject {
-  /* grid-column: 3 / span 4;
-  grid-row: 6 / span 4;
-  background-color: var(--lightColor);
-  border-radius: 20px;
-  border: 2px solid;
-  border-color: var(--darkWriting);
-  overflow: hidden;
-  margin-top: 20px;
-  margin-right: 30px;
-  margin-left: 50px; */
-
-  grid-column: 1 / span 2;
-  grid-row: 8 / span 4;
+.eighthProject {
+  grid-column: 1 / span 3;
+  grid-row: 13 / span 4;
   background-color: var(--lightColor);
   border-radius: 20px;
   border: 2px solid;

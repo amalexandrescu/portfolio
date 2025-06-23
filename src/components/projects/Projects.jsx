@@ -289,7 +289,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="eigthProject">
+        <div className="eighthProject">
           <div className="topProjectScreen">
             <div className="dotProjectScreen"></div>
             <div className="dotProjectScreen"></div>
