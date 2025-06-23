@@ -15,7 +15,7 @@ const Projects = () => {
           <div className="projectContent">
             <h3 className="projectTitle">Busy Bee</h3>
             <div className="projectTechnologiesUsed">
-              The project is build with React, Typescript, Firebase.
+              The project is built with React, Typescript, Firebase.
             </div>
             <div>
               Busy Bee is a smart agenda that helps you track your daily
@@ -69,7 +69,7 @@ const Projects = () => {
           <div className="projectContent">
             <h3 className="projectTitle">Yarn Charm</h3>
             <div className="projectTechnologiesUsed">
-              The project is build with React, Typescript.
+              The project is built with React, Typescript.
             </div>
             <div>
               A playground that lets users personalize knitted cardigans by
@@ -122,9 +122,39 @@ const Projects = () => {
             <div className="dotProjectScreen"></div>
           </div>
           <div className="projectContent">
+            <h3 className="projectTitle">Tic Tac Toe</h3>
+            <div className="projectTechnologiesUsed">
+              The project is built with React & Tailwind, Node.js and Express.
+            </div>
+            <div>
+              Two players. One winner. Zero hassle. Two players compete in
+              real-time, track their moves, and see who wins — all in a fun and
+              clean interface
+            </div>
+            <div
+              className="openProjectSection"
+              onClick={() => {
+                window.open(
+                  "https://tic-tac-toe-snowy-three.vercel.app/",
+                  "_blank"
+                );
+              }}
+            >
+              <div className="openProject">Open project</div>
+              <Icon.CaretRightFill />
+            </div>
+          </div>
+        </div>
+        <div className="fourthProject">
+          <div className="topProjectScreen">
+            <div className="dotProjectScreen"></div>
+            <div className="dotProjectScreen"></div>
+            <div className="dotProjectScreen"></div>
+          </div>
+          <div className="projectContent">
             <h3 className="projectTitle">Spotify Clone</h3>
             <div className="projectTechnologiesUsed">
-              The project is build with React & Redux.
+              The project is built with React & Redux.
             </div>
             <div>
               You can search for artists and add songs to favorites. You can
@@ -144,7 +174,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="fourthProject">
+        <div className="fifthProject">
           <div className="topProjectScreen">
             <div className="dotProjectScreen"></div>
             <div className="dotProjectScreen"></div>
@@ -153,7 +183,7 @@ const Projects = () => {
           <div className="projectContent">
             <h3 className="projectTitle">Epicode Benchmark Clone</h3>
             <div className="projectTechnologiesUsed">
-              The project is build with vanilla JS.
+              The project is built with vanilla JS.
             </div>
             <div>
               You are taking a benchmark and you have to answer the questions.
@@ -210,7 +240,7 @@ const Projects = () => {
           <div className="projectContent">
             <h3 className="projectTitle">Weather Project</h3>
             <div className="projectTechnologiesUsed">
-              The project is build with React.
+              The project is built with React.
             </div>
             <div>
               Weather application where you can search for a certain town to
@@ -239,7 +269,7 @@ const Projects = () => {
           <div className="projectContent">
             <h3 className="projectTitle">Team Generator</h3>
             <div className="projectTechnologiesUsed">
-              The project is build with vanilla JS.
+              The project is built with vanilla JS.
             </div>
             <div>
               You can generate different number of teams and persons. The
@@ -268,7 +298,7 @@ const Projects = () => {
           <div className="projectContent">
             <h3 className="projectTitle">Bingo game</h3>
             <div className="projectTechnologiesUsed">
-              The project is build with vanilla JS.
+              The project is built with vanilla JS.
             </div>
             <div>
               You can generate different number of boards. Then you can pick
