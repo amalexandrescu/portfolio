@@ -145,7 +145,7 @@ html {
   .heyThereContactMe {
     font-size: 26px;
     right: 120px;
-    bottom: -15px; /* top: 0; */
+    bottom: 15px; /* top: 0; */
     /* left: 0; */
   }
 }
@@ -183,7 +183,7 @@ html {
   .heyThereContactMe {
     font-size: 26px;
     right: 0;
-    bottom: -15px; /* top: 0; */
+    bottom: 15px; /* top: 0; */
     left: 0;
   }
 }
