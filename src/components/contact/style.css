@@ -79,7 +79,7 @@
 .heyThereContactMe {
   position: absolute;
   color: var(--darkWriting);
-  bottom: -25px;
+  bottom: 25px;
   right: 0;
   left: 0;
   font-size: 60px;
